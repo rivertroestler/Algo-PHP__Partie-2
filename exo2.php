@@ -13,29 +13,6 @@ s’affichera en majuscule et que le tableau est trié par ordre alphabétique d
 une fonction personnalisée. <br> <br>
 ous devrez appeler la fonction comme suit : afficherTableHTML($capitales);<br>
 </p>
-
-<!--<table style="width:100%">
-  <tr>
-    <th>Pays</th>
-    <th>Capitale</th>
-    
-  </tr>
-  <tr>
-    <td>allemagne</td>
-    <td>berlin</td>
-   
-  </tr>
-  <tr>
-    <td>italie</td>
-    <td>rome</td>
-  </tr>
-  <tr>
-    <td>usa</td>
-    <td>washington</td>
-  </tr>
-</table>
-</!-->
-
 <h2>Résultat</h2>
 
 
@@ -51,7 +28,7 @@ echo "<table>
 <thead>
     <tr>
         <th>Pays</th>
-        <th>Capital</th>
+        <th>Capitale</th>
     </tr>
 </thead><tbody>";
 foreach($capitales as $pays => $capitale){
