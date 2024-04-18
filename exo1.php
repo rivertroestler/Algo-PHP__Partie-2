@@ -10,9 +10,10 @@ Vous devrez appeler la fonction comme suit : convertirMajRouge($texte) ;
 <?php
 
 $texte = "Mon texte en parametre";
+$color = "red";
 
 function convertirMajRouge($texte) : string {
     $resultat = strtoupper($texte);
-    return "<font color='red'>".$resultat."</font>";
+    return "<font color='".$color."'>".$resultat."</font>";
 }
 echo convertirMajRouge($texte);
