@@ -1,4 +1,4 @@
-<h1>Exercice 9</h1>
+<h1>Exercice 10</h1>
 
 <p>En utilisant l’ensemble des fonctions personnalisées crées précédemment, créer un informations
 complet qui contient les informations suivantes : champs de texte avec nom, prénom, adresse email, ville, sexe et une liste de choix parmi lesquels on pourra sélectionner un intitulé de formation :
